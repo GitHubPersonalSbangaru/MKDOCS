@@ -4,3 +4,17 @@
  * This is a general purpose Gradle build.
  * Learn more about Gradle by exploring our samples at https://docs.gradle.org/7.3.3/samples
  */
+
+plugins {
+    id 'java'
+}
+
+tasks.register('upper') {
+    doLast {
+        println "Starting the mkdocs build and deploy"
+        mkdocs gh-deploy
+        println "Successfully deployed the documentation to github"
+    }
+}
+
+tasks.named("build") { dependsOn 'upper'}
