@@ -1,0 +1,4 @@
+site_name: My Docs Header From Git Repo
+site_url: https://www.google.com
+nav:
+  - Home: index.md
