@@ -1,4 +1,4 @@
-site_name: My Docs Header From Git Repo using gradle plugin change again
+site_name: Completely new thing
 site_url: https://www.google.com
 nav:
   - Home: index.md
