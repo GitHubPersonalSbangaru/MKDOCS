@@ -1,0 +1,4 @@
+site_name: Completely new thing
+site_url: https://www.google.com
+nav:
+  - Home: index.md
